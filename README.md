@@ -1,7 +1,6 @@
 # 🚀 Solana Raydium Volume Bot – Automated Liquidity & Trading Volume Booster
 
 ![GitHub stars](https://img.shields.io/github/stars/rhettbu/solana-raydium-volume-bot?style=social)
-![License](https://img.shields.io/github/license/yourusername/solana-raydium-volume-bot)
 ![Solana](https://img.shields.io/badge/Solana-Raydium%20Bot-purple)
 
 ## 📌 Overview  
