@@ -47,15 +47,15 @@ export const saveDataToFile = (newData: Data[], filePath: string = 'data.json') 
 
     // Check if the file exists
     if (fs.existsSync(filePath)) {
-      // If the file exists, read its content
+      // 
       const fileContent = fs.readFileSync(filePath, 'utf-8');
       existingData = JSON.parse(fileContent);
     }
 
-    // Add the new data to the existing array
+    // 
     existingData.push(...newData);
 
-    // Write the updated data back to the file
+    // 
     fs.writeFileSync(filePath, JSON.stringify(existingData, null, 2));
   } catch (error) {
     try {
@@ -77,27 +77,27 @@ export const sleep = async (ms: number) => {
 
 export function deleteConsoleLines(numLines: number) {
   for (let i = 0; i < numLines; i++) {
-    process.stdout.moveCursor(0, -1); // Move cursor up one line
-    process.stdout.clearLine(-1); // Clear the line
+    process.stdout.moveCursor(0, -1); 
+    process.stdout.clearLine(-1); 
   }
 }
 
 // Function to read JSON file
 export function readJson(filename: string = 'data.json'): Data[] {
   if (!fs.existsSync(filename)) {
-    // If the file does not exist, create an empty array
+    // 
     fs.writeFileSync(filename, '[]', 'utf-8');
   }
   const data = fs.readFileSync(filename, 'utf-8');
   return JSON.parse(data) as Data[];
 }
 
-// Function to write JSON file
+// 
 export function writeJson(data: Data[], filename: string = 'data.json'): void {
   fs.writeFileSync(filename, JSON.stringify(data, null, 4), 'utf-8');
 }
 
-// Function to edit JSON file content
+// 
 export function editJson(newData: Partial<Data>, filename: string = 'data.json'): void {
   if (!newData.pubkey) {
     console.log('Pubkey is not prvided as an argument');

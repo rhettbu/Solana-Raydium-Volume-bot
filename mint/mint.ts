@@ -3,7 +3,6 @@ import { bool, publicKey, u64 } from '@solana/buffer-layout-utils';
 import { PublicKey } from '@solana/web3.js';
 import { LiquidityPoolKeysV4 } from '@raydium-io/raydium-sdk';
 
-/** Information about a mint */
 export interface Mint {
   /** Address of the mint */
   address: PublicKey;

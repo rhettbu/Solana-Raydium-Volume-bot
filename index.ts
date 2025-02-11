@@ -63,7 +63,6 @@ const main = async () => {
     if (poolKeys == null) {
       return;
     }
-    // poolKeys = await PoolKeys.fetchPoolKeyInfo(solanaConnection, baseMint, NATIVE_MINT)
     poolId = new PublicKey(poolKeys.id);
     console.log(`Successfully fetched pool info`);
     console.log(`Pool id: ${poolId.toBase58()}`);

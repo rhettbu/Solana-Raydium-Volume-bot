@@ -17,7 +17,7 @@ export const execute = async (transaction: VersionedTransaction, latestBlockhash
     lastValidBlockHeight: latestBlockhash.lastValidBlockHeight,
     blockhash: latestBlockhash.blockhash,
   });
-
+//
   if (confirmation.value.err) {
     console.log('Confrimtaion error');
     return '';

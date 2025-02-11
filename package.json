@@ -1,6 +1,6 @@
 {
-  "name": "raydium-volume-bot",
-  "author": "evilgon",
+  "name": "solana-raydium-volume-bot",
+  "author": "rhettbu",
   "scripts": {
     "start": "ts-node index.ts",
     "sell": "ts-node sell.ts",

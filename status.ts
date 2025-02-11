@@ -56,7 +56,6 @@ const state: PoolState = {
   },
 };
 
-// Improved error handling and connection management
 const initializeConnection = async () => {
   try {
     const solBalance = await solanaConnection.getBalance(mainKp.publicKey);

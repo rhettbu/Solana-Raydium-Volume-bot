@@ -30,7 +30,6 @@ const gather = async () => {
         continue;
       }
       const rent = await solanaConnection.getMinimumBalanceForRentExemption(32);
-      console.log('🚀 ~ gather ~ minBalance:', rent);
 
       const transaction = new Transaction().add(
         ComputeBudgetProgram.setComputeUnitPrice({ microLamports: 600_000 }),

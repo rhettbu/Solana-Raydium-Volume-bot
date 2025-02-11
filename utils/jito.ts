@@ -76,7 +76,7 @@ export const onBundleResult = (c: SearcherClient): Promise<number> => {
   let isResolved = false;
 
   return new Promise((resolve) => {
-    // Set a timeout to reject the promise if no bundle is accepted within 5 seconds
+    // 
     setTimeout(() => {
       resolve(first);
       isResolved = true;
