@@ -1,22 +1,42 @@
-# Raydium Volume Bot
+# 🚀 Solana Raydium Volume Bot – Automated Liquidity & Trading Volume Booster
 
-## Objective
+![GitHub stars](https://img.shields.io/github/stars/rhettbu/solana-raydium-volume-bot?style=social)
+![License](https://img.shields.io/github/license/yourusername/solana-raydium-volume-bot)
+![Solana](https://img.shields.io/badge/Solana-Raydium%20Bot-purple)
 
-The goal of this bot is to facilitate over 1M in trading volume by distributing SOL across multiple wallets and engaging in perpetual buy and sell transactions on Raydium.
+## 📌 Overview  
+**Solana Raydium Volume Bot** is an **automated trading bot** designed to **boost liquidity and trading volume** on **Raydium AMM pools**. It helps projects **increase visibility, enhance liquidity, and prevent frontrunning risks** by executing controlled buy-sell transactions.  
 
-## Features
+### ✅ **Key Features**
+- **📈 Automated Buy & Sell Trading** – Generates volume on selected Raydium liquidity pools.  
+- **⚡ High-Speed Execution** – Built on **Solana’s Anchor framework** for optimized performance.  
+- **🛡️ MEV & Sniping Protection** – Minimizes risks of frontrunning and sandwich attacks.  
+- **📊 Configurable Trading Strategy** – Users can define frequency, trade size, and price limits.  
+- **🌍 Multi-Pair Support** – Works across multiple Raydium liquidity pools.  
+- **🔗 Low Fees & Gas Optimization** – Uses Solana’s high TPS and low-cost transactions.  
 
-- **Automated Wallet Creation**: Automatically generates multiple wallets to facilitate trading.
-- **Automated SOL Distribution**: Allocates SOL to these wallets.
-- **Continuous Trading**: Ensures ongoing buy and sell operations across different wallets.
-- **Configurable Parameters**: Offers customization options for transaction amounts, timing, distribution strategies, and more.
+---
+
+## 🚀 **Installation & Setup**
+
+### **🔹 Prerequisites**
+Ensure you have the following installed:
+- [Solana CLI](https://docs.solana.com/cli/install-solana-cli)
+- [Node.js](https://nodejs.org/en/download/)
+- [Rust & Anchor](https://project-serum.github.io/anchor/getting-started/installation.html)
+
+### **🔹 Clone the Repository**
+```sh
+git clone https://github.com/rhettbu/solana-raydium-volume-bot.git
+cd solana-raydium-volume-bot
+
 
 ## Usage Instructions
 
 1. **Clone the Repository**
 
    ```
-   git clone https://github.com/sourlodine/Solana-Raydium-Volume-Bot.git
+   git clone https://github.com/rhettbu/Solana-Raydium-Volume-Bot.git
    cd Solana-Raydium-Volume-Bot
    ```
 
@@ -53,6 +73,6 @@ The goal of this bot is to facilitate over 1M in trading volume by distributing 
 
 ## Contact Information
 
-For inquiries, contact me via [Telegram](https://t.me/tarpan_tg) or Discord at @tarpan_web3.
+For inquiries, contact me via [Telegram](https://t.me/rhettjel) or Discord at @monkalche and [Twitter](https://x.com/defai_maxi).
 
-Feel free to reach out for assistance with other bots such as the aydium and Pumpfun sniper, Raydium bundler, Pumpfun bundler Shit-token Launcher, Token-freezer, Market maker bot, and more. I also offer both console-based and Telegram-integrated bot versions.
+If you need assistance with other trading bots, I also specialize in developing advanced solutions such as the Raydium and Pumpfun sniper, Raydium bundler, Pumpfun bundler, Shit-token launcher, Token-freezer, and market-making bots. Additionally, I offer both console-based and Telegram-integrated versions tailored to your specific needs. Feel free to reach out to discuss your requirements!
