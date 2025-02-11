@@ -69,7 +69,7 @@ cd solana-raydium-volume-bot
 - **Prioritized Selling**: Sells remaining tokens before gathering SOL, optimizing the use of funds.
 - **Buy Dominance**: Executes two buys for every sell, fostering greater buying pressure.
 - **Extensive Customization**: Allows detailed configuration to suit various operational needs.
-
+```
 ## Contact Information
 
 For inquiries, contact me via [Telegram](https://t.me/rhettjel) or Discord at @monkalche and [Twitter](https://x.com/defai_maxi).
